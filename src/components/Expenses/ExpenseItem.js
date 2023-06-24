@@ -14,7 +14,7 @@ function ExpenseItem(props) {
   };
 
   useEffect(() => {
-    console.log("Name Changed:::", name);
+    //console.log("Name Changed:::", name);
   }, [name]);
   return (
     <Card className="expense-item">
